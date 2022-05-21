@@ -178,7 +178,9 @@ body {
   display: flex;
 }
 .header__menu-list li {
-  margin-left: 40px;
+  padding-right: 10px;
+  display: flex;
+  justify-content: flex-end;
 }
 .header__menu-link {
   font-size: 16px;
