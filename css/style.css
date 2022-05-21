@@ -459,14 +459,14 @@ body {
   }
 
   .header-bott__body-button {
-    width: 169px;
-    height: 45px;
+   
   }
 
   .header-bott__body-link {
-    padding: 15px 31px;
-    font-size: 12px;
-    letter-spacing: 0.1em;
+   background-color: #34547a;
+   padding: 11px 17px;
+   font-size: 12px;
+   color: #ffffff;
   }
 }
 @media (max-width: 700px) {
