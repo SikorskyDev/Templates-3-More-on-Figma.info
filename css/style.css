@@ -163,6 +163,7 @@ body {
   position: relative;
   z-index: 3;
   align-self: center;
+  justify-self: center;
 
 }
 .header__burger {
