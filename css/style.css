@@ -162,6 +162,8 @@ body {
   color: #34547a;
   position: relative;
   z-index: 3;
+  align-self: center;
+
 }
 .header__burger {
   display: none;
