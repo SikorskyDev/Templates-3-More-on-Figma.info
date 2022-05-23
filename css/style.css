@@ -235,26 +235,7 @@ body {
   margin-bottom: 60px;
   color: #727272;
 }
-.header-bott__body-button {
-  width: 225px;
-  height: 65px;
-   -webkit-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
-  -webkit-animation-name: tap-btn;
-          animation-name: tap-btn;
-  -webkit-animation-duration: 0.3s;
-          animation-duration: 0.3s;
-  -webkit-animation-iteration-count: 3;
-          animation-iteration-count: 3;
-  -webkit-animation-delay: 3s;
-          animation-delay: 3s;
-}
-.header-bott__body-button:hover {
-  -webkit-transform: scale(0.9);
-          transform: scale(0.9);
-  -webkit-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
-}
+
 @keyframes tap-btn {
     0% {
         transform: scale(1);
@@ -263,6 +244,21 @@ body {
         transform: scale(0.9);
     }
 }
+
+.header-bott__body-button {
+  width: 225px;
+  height: 65px;
+  transition: all 0.3s ease 0s;
+  animation-name: tap-btn;
+  animation-duration: 0.3s;
+  animation-iteration-count: 3;
+  animation-delay: 3s;
+}
+.header-bott__body-button:hover {
+  transform: scale(0.9);
+  transition: all 0.3s ease 0s; 
+}
+
 .header-bott__body-link {
   background-color: #34547a;
   padding: 25px 41px;
