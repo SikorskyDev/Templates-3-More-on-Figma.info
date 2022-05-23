@@ -255,6 +255,14 @@ body {
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
 }
+@keyframes tap-btn {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(0.9);
+    }
+}
 .header-bott__body-link {
   background-color: #34547a;
   padding: 25px 41px;
